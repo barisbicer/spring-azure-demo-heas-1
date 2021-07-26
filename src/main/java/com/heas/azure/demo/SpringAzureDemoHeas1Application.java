@@ -13,7 +13,7 @@ public class SpringAzureDemoHeas1Application {
 	@GetMapping("/message")
 	public String  message() {
 		
-		return "Congrats ! you app deployed successfully in Azure";
+		return "Congrats ! you app deployed successfully in Azure from HEAS....";
 	}
 	
 	public static void main(String[] args) {
